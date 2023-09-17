@@ -129,6 +129,9 @@ figure {
   left: 0;
   bottom: -25px;
 }
+.header-nav-menu-item:hover .header-nav-menu-item-link::after {
+  width: 100%;
+}
 .header-nav-menu-item:hover .header-nav-menu-item-link {
   color: var(--ocean);
 }
